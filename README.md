@@ -11,7 +11,7 @@ Game Rules:
 
 ### Prerequisites
 
-1. Running docker service
+1. Python version 3.6
 2. Requirements file present as requirements.txt file
 
 ### Project Structure
@@ -21,9 +21,6 @@ requirements.txt - requirement file which consists of list of python packages re
 
 ### Execution Steps
 1. Checkout project from github
-2. Navigate to directory same as that of Dockerfile
-3. Build docker image using following command
-docker build -t connect .
-4. Execute docker image created using following command
-docker run connect
+2. Execute game script using following command
+python game.py
 5. Follow the instructions as per messages displayed
